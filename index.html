@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Website</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Include Glide.js CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.5.2/dist/css/glide.core.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@glidejs/glide@3.5.2/dist/css/glide.theme.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- External JavaScript file -->
+    <script src="./js/scripts.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.4.1/glide.min.js"></script>
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="https://via.placeholder.com/15x15" alt="Logo">
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <section class="promo-section">
+            <div class="promo-images">
+                <div class="large-promo">
+                    <img src="https://via.placeholder.com/840x444" alt="Large Promo">
+                </div>
+                <div class="small-promos">
+                    <div class="small-promo">
+                        <img src="https://via.placeholder.com/420x222" alt="Small Promo 1">
+                    </div>
+                    <div class="small-promo">
+                        <img src="https://via.placeholder.com/420x222" alt="Small Promo 2">
+                    </div>
+                </div>
+            </div>
+            <div class="categories">
+                <div class="category">
+                    <img src="http://via.placeholder.com/150x150" alt="Tattoo Supplies">
+                    <p>Tattoo </br> Supplies</p>
+                    <a href="#" class="button">Shop now</a>
+                </div>
+                <div class="category">
+                    <img src="http://via.placeholder.com/150x150" alt="Body Jewelry">
+                    <p>Body  </br>Jewelry</p>
+                    <a href="#" class="button">Shop now</a>
+                </div>
+                <div class="category">
+                    <img src="http://via.placeholder.com/150x150" alt="Piercing Supplies">
+                    <p>Piercing </br> Supplies</p>
+                    <a href="#" class="button">Shop now</a>
+                </div>
+                <div class="category">
+                    <img src="http://via.placeholder.com/150x150" alt="Medical Supplies">
+                    <p>Medical  </br>Supplies</p>
+                    <a href="#" class="button">Shop now</a>
+                </div>
+                <div class="category">
+                    <img src="http://via.placeholder.com/150x150" alt="Permanent Makeup">
+                    <p>Permanent  </br>Makeup</p>
+                    <a href="#" class="button">Shop now</a>
+                </div>
+            </div>
+        </section>
+        <section class="new-products-section">
+            <h2>New Products</h2>
+            <div class="glide">
+                <div class="glide__track" data-glide-el="track">
+                    <ul class="glide__slides">
+                        <li class="glide__slide">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/200x200" alt="Product 1">
+                                <div class="price">$449.99</div>
+                                <div class="product-name">Rook Quill Rotary Tattoo Machine - Copper</div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/200x200" alt="Product 2">
+                                <div class="price">$449.99</div>
+                                <div class="product-name">Rook Quill Rotary Tattoo Machine - Blue</div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/200x200" alt="Product 3">
+                                <div class="price">$1,199.99</div>
+                                <div class="product-name">Pre-Order - Inkjecta Flite X1 Wireless Tattoo Machine</div>
+                            </div>
+                        </li>
+                        <li class="glide__slide">
+                            <div class="product-card">
+                                <img src="https://via.placeholder.com/200x200" alt="Product 4">
+                                <div class="price">$1,199.99</div>
+                                <div class="product-name">Pre-Order - Inkjecta Flite X1 Wireless Tattoo Machine</div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="glide__arrows" data-glide-el="controls">
+                    <button class="glide__arrow glide__arrow--left" data-glide-dir="<">‹</button>
+                    <button class="glide__arrow glide__arrow--right" data-glide-dir=">">›</button>
+                </div>
+                <div class="glide__bullets" data-glide-el="controls[nav]" style="position: sticky;">
+                    <button class="glide__bullet" data-glide-dir="=0"></button>
+                    <button class="glide__bullet" data-glide-dir="=1"></button>
+                    <button class="glide__bullet" data-glide-dir="=2"></button>
+                    <button class="glide__bullet" data-glide-dir="=3"></button>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-info">
+                <p>&copy; 2024 Your Company</p>
+                <ul class="social-icons">
+                    <li><a href="#"><i class="fa fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

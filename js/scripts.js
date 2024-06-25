@@ -39,3 +39,13 @@ document.addEventListener('DOMContentLoaded', function () {
     // Initial update to set correct bullet colors on page load
     updateBullets();
 });
+
+
+document.addEventListener('DOMContentLoaded', function () {
+    const mobileNavToggle = document.querySelector('.mobile-nav-toggle');
+    const mobileNav = document.querySelector('.mobile-nav');
+
+    mobileNavToggle.addEventListener('click', function () {
+        mobileNav.classList.toggle('active');
+    });
+});

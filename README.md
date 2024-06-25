@@ -5,11 +5,17 @@ Features
 Responsive design with mobile-friendly navigation and layout adjustments.
 Uses Glide.js for a carousel to display new products dynamically.
 Includes FontAwesome for icons and custom CSS for styling.
+
 Technologies Used
+
 HTML5
+
 CSS3
+
 Glide.js
+
 FontAwesome
+
 Getting Started
 To view the project:
 

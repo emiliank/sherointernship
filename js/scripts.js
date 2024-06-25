@@ -22,21 +22,20 @@ document.addEventListener('DOMContentLoaded', function () {
 
     glide.mount();
 
-    // Update bullet positions and colors
+
     function updateBullets() {
         const bullets = document.querySelectorAll('.glide__bullet');
         bullets.forEach((bullet, index) => {
             if (bullet.classList.contains('glide__bullet--active')) {
-                bullet.style.backgroundColor = '#0056b3'; // Active color
-                bullet.style.transform = 'scale(1.2)'; // Enlarge active bullet
+                bullet.style.backgroundColor = '#0056b3'; 
+                bullet.style.transform = 'scale(1.2)'; 
             } else {
-                bullet.style.backgroundColor = '#007BFF'; // Default color
-                bullet.style.transform = 'scale(1)'; // Normal size for inactive bullets
+                bullet.style.backgroundColor = '#007BFF'; 
+                bullet.style.transform = 'scale(1)'; 
             }
         });
     }
 
-    // Initial update to set correct bullet colors on page load
     updateBullets();
 });
 

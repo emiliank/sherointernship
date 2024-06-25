@@ -1,4 +1,4 @@
-/* Base styles for all screen sizes */
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -12,7 +12,7 @@ body {
     padding: 0 20px;
 }
 
-/* Header Styles */
+
 .header {
     background-color: #333;
     color: #fff;
@@ -24,7 +24,7 @@ body {
 }
 
 .header .logo img {
-    height: 50px; /* Adjust size as needed */
+    height: 50px; 
 }
 
 .nav ul {
@@ -50,7 +50,7 @@ body {
     color: #ccc;
 }
 
-/* Mobile Navigation */
+
 .mobile-nav-toggle {
     display: none;
     background: none;
@@ -86,7 +86,7 @@ body {
     font-weight: 700;
 }
 
-/* Footer Styles */
+
 .footer {
     background-color: #333;
     color: #fff;
@@ -113,7 +113,7 @@ body {
     font-size: 24px;
 }
 
-/* Promo Section */
+
 .promo-section {
     display: flex;
     flex-direction: column;
@@ -125,7 +125,7 @@ body {
 .promo-images {
     display: flex;
     justify-content: center;
-    gap: 10px; /* Add gap between promo images */
+    gap: 10px; 
     width: 100%;
 }
 
@@ -154,7 +154,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 10px; /* Add gap between small promos */
+    gap: 10px; 
     height: 444px;
 }
 
@@ -324,7 +324,7 @@ body {
     }
 }
 
-/* Category Button Styles */
+
 .category a.button {
     display: inline-block;
     margin-top: 10px;
@@ -343,7 +343,7 @@ body {
     transform: scale(1.05);
 }
 
-/* Card Styles */
+
 .product-card {
     background: #fff;
     border-radius: 10px;
@@ -352,7 +352,7 @@ body {
     transition: transform 0.3s;
     text-align: center;
     padding: 20px;
-    height: 100%; /* Ensure cards have equal height */
+    height: 100%; 
 }
 
 .product-card img {
